@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36127.28 d17.14
+VisualStudioVersion = 17.14.36127.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLLSlides.Api", "FLLSlides.Api.csproj", "{F6F6B927-9FE8-4EDC-B274-2DA6FD5F2948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLLSlides.Shared", "..\..\..\OneDrive\Dev\FLLSlides\Shared\FLLSlides.Shared.csproj", "{54E53E77-D13A-4F49-05B6-578E1449689E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\azure-functions-app-dotnet.yml = .github\workflows\azure-functions-app-dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,6 @@ Global
 		{F6F6B927-9FE8-4EDC-B274-2DA6FD5F2948}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F6B927-9FE8-4EDC-B274-2DA6FD5F2948}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F6B927-9FE8-4EDC-B274-2DA6FD5F2948}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54E53E77-D13A-4F49-05B6-578E1449689E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54E53E77-D13A-4F49-05B6-578E1449689E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54E53E77-D13A-4F49-05B6-578E1449689E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54E53E77-D13A-4F49-05B6-578E1449689E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

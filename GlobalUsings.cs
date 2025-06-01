@@ -1,10 +1,7 @@
-﻿global using System;
-global using System.Diagnostics;
-global using System.Linq;
+﻿global using System.Diagnostics;
 global using System.Net;
 global using System.Text.RegularExpressions;
-global using System.Threading.Tasks;
-global using System.IO;
+global using System.Text.Json.Serialization;
 global using Microsoft.Azure.Functions.Worker;
 global using Microsoft.Azure.Functions.Worker.Http;
 global using Microsoft.Extensions.DependencyInjection;

@@ -37,9 +37,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FLLSlides\Shared\FLLSlides.Shared.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Using Include="System.Threading.ExecutionContext" Alias="ExecutionContext" />
   </ItemGroup>
 </Project>

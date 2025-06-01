@@ -1,6 +1,6 @@
 # For more info on HTTP files go to https://aka.ms/vs/httpfile
 
-@base = https://fllslides.merkel.net/api
+@base = https://fllslides-api.merkel.net/
 
 # Get the files
 GET {{base}}/ListTree

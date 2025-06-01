@@ -11,10 +11,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Templates\Awards Ceremony - Full.pptx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Templates\Awards Ceremony - Short.pptx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
